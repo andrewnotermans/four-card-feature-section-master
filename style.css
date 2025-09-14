@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, 
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --grey-500: #4D4F62;
+    --grey-400: #6A7178;
+    
+    --main-font-family: 'Poppins';
+
+    --text-preset-1-line-height: 1.4;
+    --text-preset-1-font-size-mobile: 1.5rem;
+    --text-preset-1-letter-spacing: 0.25px;
+    --text-preset-1-font-weight: 600; 
+
+    --text-preset-2-line-height: 1.4;
+    --text-preset-2-font-size-mobile: 1.5rem;
+    --text-preset-2-letter-spacing: 0.25px;
+    --text-preset-2-font-weight: 200; 
+
+    --text-preset-3-line-height: 1.35;
+    --text-preset-3-font-size: 1.25rem;
+    --text-preset-3-letter-spacing: 0px;
+    --text-preset-3-font-weight: 600; 
+
+    --text-preset-4-line-height: 1.4;
+    --text-preset-4-font-size-mobile: 0.9375rem;
+    --text-preset-4-letter-spacing: 0px;
+    --text-preset-4-font-weight: 400; 
+
+    --text-preset-5-line-height: 1.6;
+    --text-preset-5-font-size: 0.8125rem;
+    --text-preset-5-letter-spacing: 0.25px;
+    --text-preset-5-font-weight: 400; 
+    
+
+}
+
+body {
+    font-family: var(--main-font-family);
+    padding: 4rem 2rem;
+}
+
+.title-wrapper {
+    text-align: center;
+}
+
+
+.title-wrapper h1{
+    font-size: var(--text-preset-2-font-size-mobile);
+    line-height: var(--text-preset-2-line-height);
+    font-weight: var(--text-preset-2-font-weight);
+    letter-spacing: var(--text-preset-2-letter-spacing);
+}
+
+.title-wrapper h2 {
+    font-size: var(--text-preset-1-font-size-mobile);
+    line-height: var(--text-preset-1-line-height);
+    font-weight: var(--text-preset-1-font-weight);
+    letter-spacing: var(--text-preset-1-letter-spacing);   
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: var(--text-preset-4-font-size-mobile);
+    line-height: var(--text-preset-4-line-height);
+    font-weight: var(--text-preset-4-font-weight);
+    letter-spacing: var(--text-preset-4-letter-spacing); 
+}
+
+.card-wrapper {
+    margin-top: 4rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.content-wrapper {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    border-top-width: 4px;
+    border-top-style: solid;
+     border-top-color: transparent;
+}
+
+.content-wrapper p {
+    margin-bottom: 2rem;
+}
+
+.content-wrapper img {
+    width: 4rem;
+    width: 4rem;
+    align-self: flex-end;
+}
+
+.red {
+    border-top-color: red;
+}
+
+.cyan {
+    border-top-color: cyan;
+}
+
+.orange {
+    border-top-color: orange;
+}
+
+.blue {
+    border-top-color: blue;
+}
